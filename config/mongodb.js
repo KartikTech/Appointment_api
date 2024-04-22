@@ -1,7 +1,7 @@
 const mongodb = require('mongodb');
 require('dotenv').config();
 
-const url = process.env.DATABASE;
+const url = "mongodb+srv://test:test@cluster0.jbp4e.mongodb.net/restaurantDB?retryWrites=true&w=majority";
 
 const mongodbClient = mongodb.MongoClient;
 
